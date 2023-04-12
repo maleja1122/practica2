@@ -1,0 +1,154 @@
+/* 
+#0022AB #192540 #00B1C5 #5A3597
+******************************************* 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    list-style:none ;
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: #0022AB;
+    padding:1%;
+}
+
+.title{
+    text-align: center;
+    margin: 1%;
+    color:#F2F2F2;
+    text-align: center;
+    color: #000;
+    font-size:xx-large;
+    text-decoration: underline;
+}
+.container{
+    box-sizing:border-box;
+    padding: 1%;
+    width: 100%;
+    border: 2px solid #0022AB;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../img/call-centre-4246677_1280.jpg);
+    
+    
+}
+.contain{
+    width: 50%;
+    box-sizing:border-box;
+    padding: 5%;
+    margin: auto;
+}
+
+.title_form{
+    margin: 2% 0;
+    padding: 1px auto;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.fm_contact > input,label,button{
+    display: inline-block;
+    width: 80%;
+    margin: 1% 0;
+    font-size: 22px;
+}
+
+.fm_contact > label{
+    text-align: left;
+    padding: 5px;
+}
+
+input:focus, .msn:focus{
+    border-bottom: none;
+    border-right: 2px solid #00B1C5;
+    background-color: #1f1d1d25;
+}
+
+.btn_enviar, .btnRegistrar, .btnCancelar{
+    width: 30%;
+    margin-top: 3%;
+    padding: 10px 20px;
+    background: #0022AB;
+    border-radius: 10px;
+    font-size: 20px;
+    border: solid #00B1C5 2px;
+    color: #F2F2F2;
+}
+
+.btn_enviar:hover{
+    background-color: #00B1C5;
+    text-decoration:underline;
+}
+
+.footer{ 
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline; 
+    background-image: linear-gradient(10deg, #5A3597,
+    #00B1C5,#0022AB 60%);
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+.foot{
+    display: inline;
+    margin: 3%;
+    text-align: center;
+   
+}
+.copy{
+    width: 30%;
+    height: auto;
+    color: #F2F2F2;
+    line-height: 40px;
+}
+.my_nets, .map{
+    width: 30%;
+    height: auto;
+}
+.title_about, .title_nets, .title_ubi{
+    color: #F2F2F2;
+    margin-bottom: 3%;
+    padding: 1%;
+}
+.social_net > li{
+    padding: 1%;
+}
+.nets{
+    width: 8%;
+}
+.foot > iframe{
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+.credits{
+    width: 100vw;
+    padding: 2%;
+    background-color: #1373c2;
+    text-align: right;
+    color: #F2F2F2;
+    overflow: hidden;
+}
+.credits > a{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+
+ .select{
+ display: inline-block;
+    width: 80%;
+    margin: 1% 0;
+    font-size: 22px;
+}
